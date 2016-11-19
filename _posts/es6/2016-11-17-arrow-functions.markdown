@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arrow Functions"
-date:   2016-11-17 18:45:15 
+date:   2016-11-17 18:45:15
 categories: es6
 ---
 Benefits for using Arrow Functions:
@@ -32,6 +32,7 @@ sayMyName('Matt');
 ```
 
 When not to use arrow functions:
+
 ```javascript
 // When you really need `this`
 const button = document.querySelector('#pushy');

@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+This site is built using Jekyll.
+
 ## Uses
 
 I was inspired by Wes Bos to document the things I use as a web developer so I created my own version. This is a living document of things that I use day-to-day in my practice of web development.
@@ -17,7 +19,7 @@ I was inspired by Wes Bos to document the things I use as a web developer so I c
 
 ### Software
 
-- I use Atom for day to day coding. I permanently switched in November 2016 from using Sublime Text for about 5 years. You can read my reasoning behind switching to Atom here.
+- I use Atom for day to day coding. I permanently switched in November 2016 from using Sublime Text for several years. You can read my reasoning behind switching to Atom here.
 - I use the GTD approach for productivity. Things allows me to prioritize my personal and work tasks and clear out my head. This is where I start my day.
 - I use Apple Notes, Calendar and Reminders for my other productivity needs
 - Google Chrome is my main browser for web development  and use Safari and Firefox for browser testing.
