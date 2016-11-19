@@ -1,0 +1,105 @@
+---
+layout: post
+title:  "Promises"
+date:   2016-11-17 18:52:31
+categories: es6
+---
+
+Example using `fetch()` (returns a Promise):
+
+- Often used when fetching JSON API. Similar to `$.ajax`
+- asynchronous (something that will happen between now and in the future)
+- Currently, no support in Internet Explorer or Safari
+
+```javascript
+// Example of using Fetch()
+// built into browser. Returns a Promise
+const posts = fetch('/path/to/api/endpoint');
+
+posts
+  // then will only run when the data comes back.
+  .then(data => data.json())
+  // chaining then functions to log data
+  .then(data => { console.log(data); })
+  // if no data, catch error and log
+  .catch(err) => {
+    console.error(err);
+  }
+```
+
+Creating a Promise:
+
+```javascript
+/*
+ * Example Promise
+ * @param resolve - success; data is being sent back
+ * @param reject - error; something went wrong
+ */
+const p = new Promise((resolve, reject) => {
+
+  // Mainly used to deal w/ running the resolve later during runtime
+  // Such as after background processing.
+  // More often this will be wrapped in a condition (like a setTimeout)
+  resolve('Test'); // this will return immediately.
+
+  // Something went wrong
+  // Error() will provide reference point when catching the error.
+  reject(Error('Err'));
+});
+
+p
+  .then(data => {
+    console.log(data);
+  })
+  .catch(err =>  {
+    console.error(err);
+  })
+```
+
+Promise Example
+
+```javascript
+function getPostById(id) {
+  // create a new promise; function will return a new Promise.
+  return new Promise((resolve, reject) => {
+    // using a setTimeout to emulate database req
+    setTimeout(() => {
+      // find the post we want
+      const post = posts.find(post => post.id === id );
+
+      if(post) {
+        resolve(post);
+      } else {
+        reject(Error('No Post Was Found'));
+      }
+    }, 200); // 2 seconds
+  });
+}
+
+getPostById(2) {
+  .then(post => {
+    console.log(post);
+  });
+}
+```
+
+Multiple Promise Example
+
+- combining promises
+
+```javascript
+// Note: CORS policy which require requests come from a sever
+// Wes Bos uses BrowserSync to spin up a local sever (avail via NPM)
+const promiseA = fetch('/path/to/api-endpoint-A');
+const promiseB = fetch('/path/to/api-endpoint-B');
+
+Promise
+  .all([promiseA, promiseB])
+  .then(responses => {
+    // will not run until all fetch() resolve
+    return Promise.all(responses.map(res => res.json()));
+  })
+  .then(responses => {
+    console.log(responses);
+  })
+```

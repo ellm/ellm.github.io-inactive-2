@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+    <div class="site">
+      <aside class="secondary">
+        <figure class="headshot">
+            <img src="http://www.gravatar.com/avatar/149e1efe4ff927426b6b9b8e27d2a0ad.png" rel="Matthew Ell Headshot" />
+        </figure>
+        <hgroup>
+            <h1 class="site-title">A Virtual Model of Matthew Ell</h1>
+        </hgroup>
+        <section class="pages">
+          <h2>Pages</h2>
+          <ul>
+          {% for my_page in site.pages %}
+            {% if my_page.title %}
+            <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+            {% endif %}
+          {% endfor %}
+          </ul>
+        </section>
+        <section class="notes">
+          <h2>Notes</h2>
+          <ul>
+          {% for category in site.categories %}
+            <li>{{ category | first }}
+              <ul>
+                {% for posts in category %}
+                  {% for post in posts %}
+                    {% if post.title %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </ul>
+            </li>
+          {% endfor %}
+          </ul>
+        </section>
+        <section class="networks">
+            <h2>Networks:</h2>
+            <ul>
+                <li><a href="http://www.github.com/ellm" rel="external">Github</a></li>
+                <li><a href="http://www.twitter.com/matthewell" rel="external">Twitter</a></li>
+                <li><a href="http://codepen.io/ellm/" rel="external">CodePen</a></li>
+                <li><a href="http://www.linkedin.com/in/mattell" rel="external">LinkedIn</a></li>
+                <li><a href="https://profiles.wordpress.org/wp-architect" rel="external">WordPress</a></li>
+            </ul>
+        </section>
+      </aside>
+
+      <main class="primary" aria-label="Content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </main>
+
+    </div>
+
+    <!-- {% include footer.html %} -->
+
+  </body>
+
+</html>

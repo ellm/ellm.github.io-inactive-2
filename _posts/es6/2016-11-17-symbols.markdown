@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Symbols"
+date:   2016-11-17 18:54:12
+categories: es6
+---
+
+## Symbols
+
+- New primitive datatype in ES6
+- unique identifiers; immutable
+- avoids naming collision
+- not enumerable (can't use 'for' loops)
+- frequently used for private data (because it can't be looped on)
+
+```javascript
+const kiwi = Symbol('Kiwi');
+const fruit = Symbol('Kiwi');
+
+// kiwi === fruit will return FALSE.
+// Even though the values are the same, they are seen as two different entities.
+
+// Object w/ several Symbols
+const simpsons = {
+  //
+  [Symbol('Bart')] : { member: 'brother' },
+  [Symbol('Lisa')] : { member: 'sister' },
+  [Symbol('Marge')] : { member: 'mother' },
+  [Symbol('Homer')] : { member: 'father' },
+  [Symbol('Maggie')] : { member: 'sister' },
+}
+
+// Getting data out...
+const syms = Object.getOwnPropertySymbols(simpsons); // will return an array of each symbol
+const data = syms.map(sym => simpsons[sym]); // will return a new array of objects w/ data
+console.log(data);
+```

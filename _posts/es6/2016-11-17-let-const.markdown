@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Let and Const"
+date:   2016-11-17 18:40:39
+categories: es6
+---
+- Use const by default
+- Use let only if rebinding is needed.
+- var should not be ever used in ES6. (opinionated)
+
+```javascript
+// if using `var` it will overwrite itself b/c it's in the global scope.
+for(let i = 0; i < 10; i++) {
+  console.log(i);
+  setTimeout(function() {
+    // - using let limits `i` to block scope.
+    // - `i` has separate binding within a forloop (block scope)
+    // - when used in the for loop you get a new binding
+    //   for every iteration - the i in every setTimeout
+    //   callback means a different variable
+    console.log('The number is ' + i);
+    // `var` outputs 10
+    // let outputs:
+    // The number is 0
+    // The number is 1
+    // The number is 2
+    // The number is 3
+    // The number is 4
+    // The number is 5
+    // The number is 6
+    // The number is 7
+    // The number is 8
+    // The number is 9
+  },1000);
+}
+```
