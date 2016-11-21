@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "ESLint"
+date:   2016-11-21 09:38:28
+categories: es6
+---
+
+## Configuration:
+
+- ESLint will use the `.eslintrc` file at project level.
+- If it does not exist, it will then search the rest of your directory tree.
+- it's common to have two config files, one at project level and another in home directory `~/`. The home directory version is good for performing "light linting".
+
+## Line and File Settings:
+
+`/*globals twttr ga */` avoid global error
+`/* eslint-disable no-extend-native */` disable a specific rule (file or single line)
+`eslint-disable` ..{code}.. `eslint-enable` disable linting on a block of code
+
+-
+## Command Line
+
+Automatically fixes smaller lint errors on JS files.
+`eslint file.js --fix` (single file)
+`eslint /path/to/files/*.js --fix` (files in a folder)
+
+## Plugins
+
+- added to extend ESLinting. Linting in HTML and Markdown files
