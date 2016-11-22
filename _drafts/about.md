@@ -8,21 +8,22 @@ This site is built using Jekyll.
 
 ## Uses
 
-I was inspired by Wes Bos to document the things I use as a web developer so I created my own version. This is a living document of things that I use day-to-day in my practice of web development.
+I was inspired by [Wes Bos](http://wesbos.com/uses) to document the things I use as a web developer so I created my own version. This is a living document of things that I use day-to-day in my web development practice.
 
-- I use mostly Apple products. My main computer is a 13 MacBook Pro connected to Dell Monitor. I use Microsoft Ergonomic Keyboard and Anchor Vertical mouse.
-- I also own a MacBook Air for personal use
+- I use mostly Apple products. My main computer is a 13.3" MacBook Pro connected to a 24" Dell Monitor
+- I also own an old MacBook Air for personal use
 - For mobile, I have and iPhone 7 and iPad Mini
-- I have a bamboo Upstanding Desk that allows me to sit and stand while working
-- I have an Amazon Echo that I use to listen to WNYC radio, Podcasts and stream music from Pandora.
-- I have an old HermonMiller chair that I use when I'm tired of standing
+- I use [Microsoft Ergonomic Keyboard](http://a.co/9sjwGmV) and [Anker Vertical mouse](http://a.co/1Yajje6).
+- I have a bamboo [Uplift Desk](http://www.upliftdesk.com/) that allows me to sit and stand while working
+- I have an Amazon Echo that I use to listen to [WNYC](http://www.wnyc.org/) radio, Podcasts and stream music.
+- I have an old Hermon Miller chair that I use when I'm tired from standing
 
 ### Software
 
 - I use Atom for day to day coding. I permanently switched in November 2016 from using Sublime Text for several years. You can read my reasoning behind switching to Atom here.
 - I use the GTD approach for productivity. Things allows me to prioritize my personal and work tasks and clear out my head. This is where I start my day.
 - I use Apple Notes, Calendar and Reminders for my other productivity needs
-- Google Chrome is my main browser for web development  and use Safari and Firefox for browser testing.
+- Google Chrome is my main browser for web development and use Safari and Firefox for browser testing.
 - Slack is open at all times and is used to communicate with my coworkers.
 - Dash is used for for quickly looking up web documentation. I also use it for snippets.
 - I use oh-my-zsh for my commandline.
