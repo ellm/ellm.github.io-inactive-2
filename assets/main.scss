@@ -58,12 +58,18 @@ ul, ol {
 
 .site {
   display: flex;
+
+  @media only screen and (max-width: 520px) {
+    flex-direction: column;
+  }
 }
 
 .primary,
 .secondary {
   padding: $spacing;
-  height: 100vh;
+  @media only screen and (min-width: 520px) {
+    height: 100vh;
+  }
 }
 
 .secondary {
