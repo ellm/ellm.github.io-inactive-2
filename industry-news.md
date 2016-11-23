@@ -19,7 +19,6 @@ permalink: /notes/industry-news
 - [Mathias Bynens](https://twitter.com/mathias)
 - [Addy Osmani](https://twitter.com/addyosmani)
 - [Wes Bos](https://twitter.com/wesbos)
-- [Sime Vidas - Web Platform Daily](https://twitter.com/simevidas)
 
 ## Newsletter
 - [A List Apart](http://alistapart.com/)

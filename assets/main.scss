@@ -98,10 +98,16 @@ figure.headshot img{
   background: #333;
   padding: 1em;
 }
+
+// Inline code
+code.highlighter-rouge {
+  background: #fff;
+  color: #4c9eff;
+}
+
 pre, code {
   background-color: #333;
   color: #CCC;
-  padding: .125em;
 }
 
 // Primary

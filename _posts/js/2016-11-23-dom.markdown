@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "DOM"
+date:   2016-11-23 17:25:46
+categories: js
+---
+
+### DOM
+
+#### Getting Info:
+
+``` javascript
+// inspect the type of object or primitive
+typeof undefined === 'undefined';
+
+// check if a value is undefined
+if ( typeof foo === "undefined" ) {
+    // foo is undefined.
+    // foo var exists and it's undefined
+}
+
+// check if a variable has a truthy value
+if ( value ) {
+// will evaluate to true if:
+    // null
+    // undefined
+    // NaN
+    // empty string ("")
+    // 0
+    // false
+}
+```
+
+Note: Contrary to common belief, "undefined" is NOT a keyword in JavaScript and can in fact have a value assigned to it.
+
+#### Selecting Nodes:
+
+``` javascript
+// I want to know the amount of nodes
+console.log(parentElment.children.length);
+
+// I want to select a specific child node
+console.log(parentElment.childNodes.item(1));
+
+// I want to select a specific child node
+console.log(parentElment.querySelector('*:nth-child(2)'));
+```
