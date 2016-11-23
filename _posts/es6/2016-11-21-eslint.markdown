@@ -13,16 +13,15 @@ categories: es6
 
 ## Line and File Settings:
 
-`/*globals twttr ga */` avoid global error
-`/* eslint-disable no-extend-native */` disable a specific rule (file or single line)
-`eslint-disable` ..{code}.. `eslint-enable` disable linting on a block of code
+- `/*globals twttr ga */` avoid global error
+- `/* eslint-disable no-extend-native */` disable a specific rule (file or single line)
+- `eslint-disable` ..{code}.. `eslint-enable` disable linting on a block of code
 
--
 ## Command Line
 
 Automatically fixes smaller lint errors on JS files.
-`eslint file.js --fix` (single file)
-`eslint /path/to/files/*.js --fix` (files in a folder)
+- `eslint file.js --fix` (single file)
+- `eslint /path/to/files/*.js --fix` (files in a folder)
 
 ## Plugins
 
