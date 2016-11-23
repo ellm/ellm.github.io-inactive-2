@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "WebPack"
+date:   2016-11-23 10:27:05
+categories: es6
+---
+
+## Modules
+
+- making functions available to other scripts (`import`)
+- WebPack uses modules to build applications
+- libraries and packages are pulled into application via NPM
+
+## WebPack
+
+- `entry points` are used to point to where the application to start
+- `loaders` are used to tell WebPack how files should be handled.
+- `Babel` is a loader that converts ES6 code into ES2015
+- `plugins` are used to add additional tasks to
+- use a `npm script` to then run WebPack process
+
+
