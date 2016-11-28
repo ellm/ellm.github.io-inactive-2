@@ -11,6 +11,21 @@ categories: es6
 - If it does not exist, it will then search the rest of your directory tree.
 - it's common to have two config files, one at project level and another in home directory `~/`. The home directory version is good for performing "light linting".
 
+Example `.eslintrc` file:
+``` json
+{
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "extends": "airbnb",
+  "rules": {
+    "no-console": 0,
+    "no-unused-vars": 1
+  }
+}
+```
+
 ## Line and File Settings:
 
 - `/*globals twttr ga */` avoid global error

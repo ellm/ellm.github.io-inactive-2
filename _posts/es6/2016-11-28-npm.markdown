@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "npm"
+date:   2016-11-28 09:07:46
+categories: es6
+---
+
+## Common Commands
+
+```bash
+// List npm global packages
+npm -g ls --depth 0
+
+// Clear Cache
+npm cache clean
+
+// Uninstall global package
+npm uninstall -g jscs
+
+```
+
+- [Fix NPM permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
+
