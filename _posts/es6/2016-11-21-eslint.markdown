@@ -12,6 +12,7 @@ categories: es6
 - it's common to have two config files, one at project level and another in home directory `~/`. The home directory version is good for performing "light linting".
 
 Example `.eslintrc` file:
+
 ``` json
 {
   "env": {
