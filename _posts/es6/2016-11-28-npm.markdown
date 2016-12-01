@@ -17,6 +17,8 @@ npm cache clean
 // Uninstall global package
 npm uninstall -g jscs
 
+// Rebuild package
+npm rebuild node-sass
 ```
 
 - [Fix NPM permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions)

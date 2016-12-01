@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Arrays"
+date:   2016-12-01 08:21:27
+categories: js
+---
+
+## Array.from()
+
+```javascript
+const items = Array.from(document.querySelectorAll('.items'));
+```
+- convert to Array
+- currently, no support IE11 and below. Call from prototype instead. i.e. `const items = Array.prototype.reduce.call(...)`
+- Babel provides a [polyfill](https://babeljs.io/docs/usage/polyfill/)
