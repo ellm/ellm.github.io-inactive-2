@@ -42,3 +42,43 @@ Automatically fixes smaller lint errors on JS files.
 ## Plugins
 
 - added to extend ESLinting. Linting in HTML and Markdown files
+
+## SublimeText Linting
+
+- linting in realtime can be helpful for instant feedback on your code quality.
+- I've found it valuable to have a global install of ESLint and set my code editor to lint using a config file in my home directory i.e. `~/.eslintrc`.
+- The home directory version is good for performing "light linting" such as rules for single quotes vs double quotes and spaces vs tabs.
+
+### Configuration
+- Install ESlint globally `npm install eslint -g`
+- Install `SublimeLinter` and then `SublimeLinter-contrib-eslint`
+- In `SublimeLinter.sublime-settings` use the following settings:
+
+``` json
+{
+    "user": {
+
+        "linters": {
+            "eslint": {
+                "@disable": false,
+                // args allow you to pass ESlint CLI commands
+                "args": [
+                    "--config",
+                    "/Users/matt/.eslintrc" // absolute path to a specific eslintrc file
+                ],
+                "excludes": [
+                    "**/node_modules/**"
+                ]
+            },
+        },
+
+        "paths": {
+            "linux": [],
+            "osx": [
+                "/usr/local/bin"
+            ],
+            "windows": []
+        },
+    }
+}   
+```
