@@ -16,7 +16,7 @@ permalink: /about/
 
 ### Software
 
-- I use [Atom](https://atom.io) for coding
+- I use [Sublime Text](https://www.sublimetext.com/) for coding
 - [Things](https://culturedcode.com/things/) allows me to prioritize my personal and work tasks and clear out my head. This is where I start my day.
 - I use Apple Notes, Calendar and Reminders for my other productivity needs
 - Google Chrome is my main browser for web development
@@ -28,8 +28,8 @@ permalink: /about/
 ### Practice and Routine
 
 - I'm at the gym three days a week running or doing cardio
-- Early mornings I use for learning. Right now, I'm learning ES6
-- I get my Industry new mostly from these sources. For other news, I'm keen on NYT, NPR and public radio. My local station is [WNYC](http://wnyc.org)
+- Early mornings I use for learning. Right now, I'm learning ES6 and ReactJS
+- I get my Industry new mostly from these [sources]({{ site.baseurl }}{% link notes/industry-news %}). For other news, I'm keen on NYT, NPR and public radio. My local station is [WNYC](http://wnyc.org)
 - I try to practice deep reading each day for at least 15-20 minutes
 - My philosophy for day to day learning is to learn something, write it down and share it. Even if it is something small. I use [The Feynman Technique](https://news.ycombinator.com/item?id=11981353).
 - I like to keep my toolchain very short. I'm a minimalist to say the least.
