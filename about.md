@@ -29,7 +29,7 @@ permalink: /about/
 
 - I'm at the gym three days a week running or doing cardio
 - Early mornings I use for learning. Right now, I'm learning ES6 and ReactJS
-- I get my Industry new mostly from these [sources]({{ site.baseurl }}{% link notes/industry-news %}). For other news, I'm keen on NYT, NPR and public radio. My local station is [WNYC](http://wnyc.org)
+- I get my Industry new mostly from these [sources](/notes/industry-news). For other news, I'm keen on NYT, NPR and public radio. My local station is [WNYC](http://wnyc.org)
 - I try to practice deep reading each day for at least 15-20 minutes
 - My philosophy for day to day learning is to learn something, write it down and share it. Even if it is something small. I use [The Feynman Technique](https://news.ycombinator.com/item?id=11981353).
 - I like to keep my toolchain very short. I'm a minimalist to say the least.
