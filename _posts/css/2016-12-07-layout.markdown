@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Layout"
+date:   2016-12-07 10:24:17 
+categories: css
+---
+
+## A weird quirk in translate3d and fixed
+- when a parent element uses `translate3d` it can corrupt the positioning of child elements that are position fixed.
+- This is because fixed positioning becomes fixed to the transformed element, rather than the viewport.
+- See [Un-fixing Fixed Elements with CSS Transforms](http://meyerweb.com/eric/thoughts/2011/09/12/un-fixing-fixed-elements-with-css-transforms/)
