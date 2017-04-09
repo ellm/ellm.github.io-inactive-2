@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Hello"
+date:   2014-04-09 10:24:17
+categories: general
+---
+
+This is my first post. More to come!
