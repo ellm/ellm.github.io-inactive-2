@@ -16,14 +16,14 @@ permalink: /about/
 
 ### Software
 
-- I use [Sublime Text](https://www.sublimetext.com/) for coding
+- I use [Vim](http://www.vim.org) for coding.
 - [Things](https://culturedcode.com/things/) allows me to prioritize my personal and work tasks and clear out my head. This is where I start my day.
-- I use Apple Notes, Calendar and Reminders for my other productivity needs
-- Google Chrome is my main browser for web development
+- I use Apple Notes, Calendar and Reminders for my other productivity needs.
+- Google Chrome is my main browser for web development.
 - [Slack](https://slack.com/) is open at all times and is used to communicate with my coworkers.
 - [Dash](https://kapeli.com/dash) is used for for quickly looking up web documentation.
 - I use [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/) for my command line.
-- My [dotfiles](https://github.com/ellm/dotfiles) include many of the configurations I use for my development software
+- My [dotfiles](https://github.com/ellm/dotfiles) include many of the configurations I use for my development software.
 
 ### Practice and Routine
 
@@ -37,4 +37,4 @@ permalink: /about/
 
 - Coming soon.
 
-This site is built using Jekyll.
+This site is built using [Jekyll](https://jekyllrb.com/).
