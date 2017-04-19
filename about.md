@@ -16,9 +16,8 @@ permalink: /about/
 
 ### Software
 
-- I use [Vim](http://www.vim.org) for coding.
-- [Things](https://culturedcode.com/things/) allows me to prioritize my personal and work tasks and clear out my head. This is where I start my day.
-- I use Apple Notes, Calendar and Reminders for my other productivity needs.
+- I use [Sublime Text](https://www.sublimetext.com/) for coding.
+- [iTerm](https://www.iterm2.com/) for running terminal commands.
 - Google Chrome is my main browser for web development.
 - [Slack](https://slack.com/) is open at all times and is used to communicate with my coworkers.
 - [Dash](https://kapeli.com/dash) is used for for quickly looking up web documentation.
