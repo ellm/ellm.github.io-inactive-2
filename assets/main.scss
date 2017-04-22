@@ -72,6 +72,12 @@ ul, ol {
   }
 }
 
+.primary {
+  .wrapper {
+    max-width: 640px;
+  }
+}
+
 .secondary {
   @include verticalSpace();
   background-color: #263f5e;
