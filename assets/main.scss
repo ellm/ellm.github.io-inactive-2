@@ -5,8 +5,8 @@
 
 $spacing:     16px;
 
-@mixin fontSize($size:1em) {
-  font-size: $size;
+@mixin fontSize($size) {
+  font-size: #{$size}em;
 }
 
 @mixin verticalSpace($size:1em) {
@@ -25,7 +25,7 @@ $spacing:     16px;
 body {
   background-color: #fff;
   color: #333;
-  font-family: Georgia, serif;
+  font-family: 'Gudea', sans-serif;
   font-size: 100%;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
@@ -41,19 +41,12 @@ a {
 }
 
 h1,h2,h3,h4,h5,h6,p,span,a,li {
-  @include fontSize();
+  @include fontSize(1);
   font-weight: normal;
 }
 
 ul, ol {
   list-style-type: none;
-
-  li {
-    margin-left: .25em;
-    &::before {
-      content: ' > ';
-    }
-  }
 }
 
 .site {
@@ -83,6 +76,13 @@ ul, ol {
   background-color: #263f5e;
   color: #fff;
   min-width: 200px;
+
+  li {
+    margin-left: .25em;
+    &::before {
+      content: ' > ';
+    }
+  }
 }
 
 // Headshot
@@ -98,6 +98,47 @@ figure.headshot img{
       opacity: 1;
   }
 }
+
+// Home specific
+.home {
+  .page-heading,
+  .rss-subscribe {
+    display: none; // todo: remove this from template file instead
+  }
+  .post-list {
+    li {
+      margin-bottom: .5em;
+
+      h2 {
+        font-size: 1.4em;
+      }
+    }
+  }
+}
+// end Home specific
+
+// Article specific
+.post {
+  h1 {
+    @include fontSize(1.4);
+  }
+  h2 {
+    @include fontSize(1.2);
+    border-top: 1px solid #eee;
+    font-weight: bold;
+    padding-top: .25em;
+  }
+  h3 {
+    font-weight: bold;
+  }
+  li {
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-left: 1em;
+    margin-bottom: .5em;
+  }
+}
+// end Article specific
 
 // Syntax
 .highlighter-rouge .highlight {
