@@ -15,6 +15,6 @@ This has become a habit for me - I get bored of my text editor and feel the urge
 
 I've come to the conclusion that Sublime Text give me all the things I need in a text editor right now and for the foreseeable future. While Vim has the potential to be _very_ powerful, I don't see any added benefit using it as my primary editor (as someone who is a front-end developer). However, I do plan to continue learning more about Vim. 
 
-My feelings on Atom and VSCode come down to the fact that the basic idea for these editors came from Sublime Text. The only thing that I think these editors have over Sublime Text is that they are both open source. That said, if Sublime Text was abandoned, I'd likely move to using Atom instead (if my Vim skills are still not up to par :)). Until that day or I find something else that makes me more productive, I'll stick with Sublime Text.
+My feelings on Atom and VSCode come down to the fact that the basic idea for these editors came from Sublime Text. The only thing that I think these editors have over Sublime Text is that they are both open source. That said, if Sublime Text was abandoned, I'd likely move to using Atom instead (if my Vim skills are still not up to par 😀 ). Until that day or I find something else that makes me more productive, I'll stick with Sublime Text.
 
 
