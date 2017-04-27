@@ -7,6 +7,26 @@ categories: bugs
 
 You will likely find these bugs in both Safari and Chrome because iOS Chrome is forced to use Apple’s WebView. However, some of these bugs may only occur in one of the two.
 
+## Flexbox percentage height bug
+
+Given the following markup:
+
+```html 
+<div class="flex-container">
+  <div class="flex-child"></div>
+  <div class="flex-child"></div>
+  <div class="flex-child"></div>
+</div>
+```
+
+`.flex-child` appears collapsed when using percentage based `height` and `.flex-container` has it's `flex-direction` set to `column`.
+
+For the time being, my work around is to set `flex-container` to not use `flex-direction` and instead use `flex-wrap: wrap`. Additionally, setting `flex-child` to have 100% `width`. These two changes give you a similar effect and work across browsers and devices. 
+
+[Demo](https://codepen.io/ellm/pen/vmgGPE)
+
+I've also submitted this bug to [flexbugs](https://github.com/philipwalton/flexbugs/issues/217) for discussion.
+
 ## `position:fixed` bug
 
 On iOS using the CSS `postition:fixed` on a container such as a modal pop-up creates some strange results when an input field is within it.
