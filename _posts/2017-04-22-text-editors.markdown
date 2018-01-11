@@ -5,6 +5,13 @@ date:   2017-04-22
 categories: tooling
 ---
 
+**Update: January 11, 2018**
+*I came back to this post recently and felt the need to update it. Since writing this post, I found VSCode and have been using it as my main text editor.* 
+
+*VSCode made a lot of great improvements in 2017 and the Sublime keybindings setting made it really easy to switch without much loss of productivity. However, my main reasons for switching where: Integrated terminal, better syntax highlighting (especially for SCSS), Intellisense and developer community.*
+
+--
+
 I just came back to Sublime Text as my primary text editor after trying out vanilla Vim for about 2 weeks. I was certain that Vim was a worthy investment of my time to learn. However, I eventually realized Vim's learning curve is steep and I was not feeling productive using it. After all, I had invested more than 5 years learning Sublime Text and felt very comfortable navigating it's interface. Why switch to a new tool when the one you have already works so well?
 
 This has become a habit for me - I get bored of my text editor and feel the urge to try something new. However, I always found myself back to Sublime Text. What takes me away is some sort of shiny feature in another text editor that makes me think I'll be more productive using it. This way of thinking just keeps you from doing the real work at hand. It is actually counter-productive. Some examples of features that have grabbed my attention include:
