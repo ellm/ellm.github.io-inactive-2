@@ -10,7 +10,7 @@ categories: tooling
 
 *VSCode made a lot of great improvements in 2017 and the Sublime keybindings setting made it really easy to switch without much loss of productivity. However, my main reasons for switching where: Integrated terminal, better syntax highlighting (especially for SCSS), Intellisense and developer community.*
 
---
+* * *
 
 I just came back to Sublime Text as my primary text editor after trying out vanilla Vim for about 2 weeks. I was certain that Vim was a worthy investment of my time to learn. However, I eventually realized Vim's learning curve is steep and I was not feeling productive using it. After all, I had invested more than 5 years learning Sublime Text and felt very comfortable navigating it's interface. Why switch to a new tool when the one you have already works so well?
 
