@@ -16,7 +16,7 @@ permalink: /about/
 
 ### Software
 
-- I use [VSCode](https://code.visualstudio.com/) for coding.
+- I use [Sublime Text](https://www.sublimetext.com/) for coding.
 - [iTerm](https://www.iterm2.com/) for running terminal commands.
 - Google Chrome is my main browser for web development.
 - [Slack](https://slack.com/) is open at all times and is used to communicate with my coworkers.
